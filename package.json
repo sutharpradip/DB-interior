@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "preinstall": "npm install -g json-server",
-  "start": "json-server --watch db.json --port 3000",
-  "postinstall": "chmod +x ./node_modules/.bin/json-server"
-  }
-,
+    "start": "npx json-server --watch db.json --port 3000",
+    "postinstall": "chmod +x ./node_modules/.bin/json-server"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
